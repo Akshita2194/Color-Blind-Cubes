@@ -1,1 +1,1 @@
-# Kuku-Cube-Game-using-Java
+# Color Blind Cubes using Java
