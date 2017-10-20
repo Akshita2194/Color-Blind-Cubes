@@ -1,7 +1,7 @@
 import java.awt.*;
 import javax.swing.*;
 import java.awt.event.*;
-class Kukucube implements ActionListener
+class ColorBlindCubes implements ActionListener
 {
 JFrame fr;
 JDialog d;
@@ -13,10 +13,10 @@ JLabel lb1,lb2,lb3,lb4;
 int x=80,y=100,count=60,s=0,time=0,count1=0;
 int r=(int)(Math.random()*64);
 String score;
-Kukucube()
+ColorBlindCubes()
 {
 System.out.println(r);
-fr=new JFrame("Kuku Cube");
+fr=new JFrame("Color Blind Cubes");
 fr.setSize(400,400);
 fr.setLayout(null);
 for(int i=0;i<64;i++)
@@ -78,7 +78,7 @@ fr.setVisible(true);
 }
 public static void main(String s[])
 {
-new Kukucube();
+new ColorBlindCubes();
 }
 public void actionPerformed(ActionEvent e)
 {
